@@ -1,0 +1,42 @@
+{
+  "name": "yd-react-native-divider",
+  "description": "React Native Divider component",
+  "version": "1.0.0",
+  "repository": "github:yamildiego/react-native-divider",
+  "main": "./react-native-divider/react-native-divider.js",
+  "types": "./react-native-divider/react-native-divider.d.ts",
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "deploy": "npm run build && npm publish --access=public"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "keywords": [
+    "react-native",
+    "component",
+    "divider",
+    "simple"
+  ],
+  "author": "Yamil Diego <yamildiego91@gmail.com> (https://yamildiego.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "@types/browserify": "latest",
+    "@types/react": "~18.0.14",
+    "@types/react-native": "~0.70.6",
+    "babel-loader": "^9.1.0",
+    "browserify": "latest",
+    "ts-loader": "^9.4.1",
+    "typescript": "^4.6.3"
+  },
+  "peerDependencies": {
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-native": "0.70.5",
+    "react-native-web": "^0.18.10"
+  },
+  "dependencies": {}
+}

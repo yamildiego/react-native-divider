@@ -1,0 +1,8 @@
+node_modules
+lib
+.vscode
+dist
+react-native-divider/*
+!react-native-divider/package.json
+package-lock.json
+react-native-divider
